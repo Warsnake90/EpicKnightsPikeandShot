@@ -1,4 +1,4 @@
-This is an indev mod for the GCL4 server. 
+This is an indev mod for the GCL4 server. Message #Warsnake901 for info, if you want
 
 THIS IS NOT FINISHED AND WILL NOT BE FINISHED FOR A BIT OF TIME, DO NOT USE THIS AS OF NOW, IT WILL NOT WORK!
 
