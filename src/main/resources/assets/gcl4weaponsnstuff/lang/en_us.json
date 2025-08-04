@@ -1,6 +1,7 @@
 {
-  "item.gcl4weaponsnstuff.test": "Debug item (DO NOT USE)",
-  "item.gcl4weaponsnstuff.debug": "Debug item 2 (DO NOT USE)",
+  "item.gcl4weaponsnstuff.debug": "Debug item (DO NOT USE)",
+
+  "block.gcl4weaponsnstuff.debug_block": "Debug Block (DO NOT USE)",
 
   "creativetab.gcl4_tab": "GCL4 Addon"
 }

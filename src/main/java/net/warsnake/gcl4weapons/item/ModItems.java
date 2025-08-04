@@ -13,8 +13,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, GCL4weapons.MOD_ID);
 
-    public static final RegistryObject<Item> test = ITEMS.register("test",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> debug = ITEMS.register("debug",
             () -> new Item(new Item.Properties()));
 

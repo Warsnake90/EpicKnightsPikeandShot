@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft/block/cube.all",
+  "texture": {
+    "all": "gcl4weaponsnstuff:block/debug_block"
+  }
+}

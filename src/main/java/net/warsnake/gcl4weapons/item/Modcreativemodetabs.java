@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.warsnake.gcl4weapons.GCL4weapons;
+import net.warsnake.gcl4weapons.block.ModBlocks;
 
 public class Modcreativemodetabs {
     public static final DeferredRegister<CreativeModeTab> Creativemodetabs =
@@ -19,7 +20,8 @@ public class Modcreativemodetabs {
             .title(Component.translatable("creativetab.gcl4_tab"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.debug.get());
-                output.accept(ModItems.test.get());
+
+                output.accept(ModBlocks.debug_block.get());
             })
             .build());
 
