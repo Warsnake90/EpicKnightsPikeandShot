@@ -19,9 +19,18 @@ public class Modcreativemodetabs {
     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.debug.get()))
             .title(Component.translatable("creativetab.gcl4_tab"))
             .displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModItems.debug.get());
 
+                // debug items
+                output.accept(ModItems.debug.get());
                 output.accept(ModBlocks.debug_block.get());
+
+                // swords
+                output.accept(ModItems.steel_smallsword.get());
+                output.accept(ModItems.steel_spadroon.get());
+                output.accept(ModItems.steel_basket_hilted_sword.get());
+                output.accept(ModItems.steel_pallasch.get());
+
+                // armours
             })
             .build());
 

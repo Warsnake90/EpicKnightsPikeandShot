@@ -1,7 +1,11 @@
 {
   "item.gcl4weaponsnstuff.debug": "Debug item (DO NOT USE)",
-
   "block.gcl4weaponsnstuff.debug_block": "Debug Block (DO NOT USE)",
+
+  "item.gcl4weaponsnstuff.steel_smallsword": "Steel Smallsword",
+  "item.gcl4weaponsnstuff.steel_basket_hilted_sword": "Steel Basket Hilted sword",
+  "item.gcl4weaponsnstuff.steel_spadroon": "Steel Spadroom",
+  "item.gcl4weaponsnstuff.steel_pallasch": "Steel Pallasch",
 
   "creativetab.gcl4_tab": "GCL4 Addon"
 }

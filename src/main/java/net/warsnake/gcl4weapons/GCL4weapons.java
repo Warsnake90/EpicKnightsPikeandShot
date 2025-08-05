@@ -47,9 +47,8 @@ public class GCL4weapons
     private void addCreative(BuildCreativeModeTabContentsEvent event){
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-
+            // remove this
             event.accept(ModItems.debug);
-
         }
     }
 

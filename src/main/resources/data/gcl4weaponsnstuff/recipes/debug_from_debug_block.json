@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gcl4weaponsnstuff:debug_block"
+    }
+  ],
+  "result": {
+    "item": "gcl4weaponsnstuff:debug",
+    "count": 9
+}
+}
