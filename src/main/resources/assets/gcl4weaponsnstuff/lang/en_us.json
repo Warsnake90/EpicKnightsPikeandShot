@@ -3,9 +3,11 @@
   "block.gcl4weaponsnstuff.debug_block": "Debug Block (DO NOT USE)",
 
   "item.gcl4weaponsnstuff.steel_smallsword": "Steel Smallsword",
-  "item.gcl4weaponsnstuff.steel_basket_hilted_sword": "Steel Basket Hilted sword",
-  "item.gcl4weaponsnstuff.steel_spadroon": "Steel Spadroom",
+  "item.gcl4weaponsnstuff.steel_basket_hilted_sword": "Scottish Broadsword",
+  "item.gcl4weaponsnstuff.steel_spadroon": "Steel Spadroon",
   "item.gcl4weaponsnstuff.steel_pallasch": "Steel Pallasch",
+  "item.gcl4weaponsnstuff.steel_plug_bayonet": "Steel Plug Bayonet",
+  "item.gcl4weaponsnstuff.steel_walloon_sword": "Steel Walloon Sword",
 
   "creativetab.gcl4_tab": "GCL4 Addon"
 }

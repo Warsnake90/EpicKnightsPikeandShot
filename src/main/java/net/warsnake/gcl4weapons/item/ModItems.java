@@ -20,19 +20,25 @@ public class ModItems {
             () -> new DebugItem(new Item.Properties()));
 
 
-    // diamond sword is pAttackSpeedModifier -2.6
+    // diamond sword is pAttackSpeedModifier -2.6, and pAttachdamage of 6
 
     public static final RegistryObject<Item> steel_smallsword = ITEMS.register("steel_smallsword",
-            () -> new SwordItem(ModToolTiers.gclsmallsword, 4, -2.5f,new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
 
     public static final RegistryObject<Item> steel_spadroon = ITEMS.register("steel_spadroon",
-            () -> new SwordItem(ModToolTiers.gclsmallsword, 4, -2.5f,new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
 
     public static final RegistryObject<Item> steel_basket_hilted_sword = ITEMS.register("steel_basket_hilted_sword",
-            () -> new SwordItem(ModToolTiers.gclsmallsword, 4, -2.5f,new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
 
     public static final RegistryObject<Item> steel_pallasch = ITEMS.register("steel_pallasch",
-            () -> new SwordItem(ModToolTiers.gclsmallsword, 4, -2.5f,new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
+
+    public static final RegistryObject<Item> steel_plug_bayonet = ITEMS.register("steel_plug_bayonet",
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
+
+    public static final RegistryObject<Item> steel_walloon_sword = ITEMS.register("steel_walloon_sword",
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

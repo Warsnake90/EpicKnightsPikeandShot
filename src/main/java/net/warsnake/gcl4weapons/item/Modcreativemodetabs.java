@@ -29,6 +29,8 @@ public class Modcreativemodetabs {
                 output.accept(ModItems.steel_spadroon.get());
                 output.accept(ModItems.steel_basket_hilted_sword.get());
                 output.accept(ModItems.steel_pallasch.get());
+                output.accept(ModItems.steel_plug_bayonet.get());
+                output.accept(ModItems.steel_walloon_sword.get());
 
                 // armours
             })
