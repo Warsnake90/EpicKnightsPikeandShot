@@ -1,7 +1,10 @@
 This is an indev mod for the GCL4 server. Message #Warsnake901 for info, if you want
 
-THIS IS NOT FINISHED AND WILL NOT BE FINISHED FOR A BIT OF TIME, DO NOT USE THIS AS OF NOW, IT WILL NOT WORK!
+THIS IS NOT FINISHED AND WILL NOT BE FINISHED FOR A BIT OF TIME, DO NOT USE THIS AS OF NOW, IT WILL NOT WORK AS INTENDED!
 
-will add late 1600s to early 1700s weapons and armours to epic knights, Forge 1.20.1,
+will add late 1600s to early 1700s weapons and armours to epic knights, Forge 1.20.1.
+Might also add hats and other decorative items
 
-recipes will be tailored to the gcl4 balance, dont give me requests or "can you port to x version" the answer is no.
+recipes and damage values will be tailored to the gcl4 balance, I may release a seperate non glc4 version after. 
+
+please don't give me requests or "can you port to x version" the answer is no.
