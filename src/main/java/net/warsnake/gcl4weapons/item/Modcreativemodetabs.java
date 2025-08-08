@@ -31,6 +31,8 @@ public class Modcreativemodetabs {
                 output.accept(ModItems.steel_pallasch.get());
                 output.accept(ModItems.steel_plug_bayonet.get());
                 output.accept(ModItems.steel_walloon_sword.get());
+                output.accept(ModItems.steel_spontoon.get());
+                output.accept(ModItems.steel_long_pike.get());
 
                 // armours
             })

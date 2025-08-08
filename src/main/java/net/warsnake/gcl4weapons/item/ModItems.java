@@ -10,7 +10,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.warsnake.gcl4weapons.GCL4weapons;
 import net.warsnake.gcl4weapons.item.custom.DebugItem;
+import net.warsnake.gcl4weapons.item.custom.ExtraReachSwordItem;
 import net.warsnake.gcl4weapons.item.custom.ModToolTiers;
+import net.warsnake.gcl4weapons.item.custom.ReachExtender;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,6 +21,7 @@ public class ModItems {
     public static final RegistryObject<Item> debug = ITEMS.register("debug",
             () -> new DebugItem(new Item.Properties()));
 
+    // weapons
 
     // diamond sword is pAttackSpeedModifier -2.6, and pAttachdamage of 6
 
@@ -39,6 +42,17 @@ public class ModItems {
 
     public static final RegistryObject<Item> steel_walloon_sword = ITEMS.register("steel_walloon_sword",
             () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
+
+    public static final RegistryObject<Item> steel_long_pike = ITEMS.register("steel_long_pike",
+            () -> new ExtraReachSwordItem(ModToolTiers.gclsmallsword, 6, -2.5f, new Item.Properties()));
+
+    public static final RegistryObject<Item> steel_spontoon = ITEMS.register("steel_spontoon",
+            () -> new SwordItem(ModToolTiers.gclsmallsword, 6, -2.5f,new Item.Properties()));
+
+    // armours
+
+    // decorations
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

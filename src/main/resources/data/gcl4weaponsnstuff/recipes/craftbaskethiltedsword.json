@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ddd",
+    "ddd",
+    "ddd"
+  ],
+  "key": {
+    "d": {
+      "item": "gcl4weaponsnstuff:debug"
+    }
+  },
+  "result": {
+      "item": "gcl4weaponsnstuff:steel_basket_hilted_sword"
+  }
+}

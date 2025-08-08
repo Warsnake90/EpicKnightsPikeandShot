@@ -8,6 +8,9 @@
   "item.gcl4weaponsnstuff.steel_pallasch": "Steel Pallasch",
   "item.gcl4weaponsnstuff.steel_plug_bayonet": "Steel Plug Bayonet",
   "item.gcl4weaponsnstuff.steel_walloon_sword": "Steel Walloon Sword",
+  "item.gcl4weaponsnstuff.steel_long_pike": "Steel Long Pike",
+  "item.gcl4weaponsnstuff.steel_spontoon": "Steel Spontoon",
+  "tooltip.gcl4weaponsnstuff.pike_tooltip": "+*reach* Entity Reach",
 
-  "creativetab.gcl4_tab": "GCL4 Addon"
+  "creativetab.gcl4_tab": "Pikes and Shot"
 }

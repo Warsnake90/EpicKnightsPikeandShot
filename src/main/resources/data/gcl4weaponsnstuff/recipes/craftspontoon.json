@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " dd",
+    "ddd",
+    "ddd"
+  ],
+  "key": {
+    "d": {
+      "item": "gcl4weaponsnstuff:debug"
+    }
+  },
+  "result": {
+      "item": "gcl4weaponsnstuff:steel_spontoon"
+  }
+}
