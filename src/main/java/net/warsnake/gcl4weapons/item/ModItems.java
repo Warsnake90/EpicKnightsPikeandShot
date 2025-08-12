@@ -14,6 +14,8 @@ import net.warsnake.gcl4weapons.item.custom.ExtraReachSwordItem;
 import net.warsnake.gcl4weapons.item.custom.ModToolTiers;
 import net.warsnake.gcl4weapons.item.custom.ReachExtender;
 
+// clean this up later
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, GCL4weapons.MOD_ID);

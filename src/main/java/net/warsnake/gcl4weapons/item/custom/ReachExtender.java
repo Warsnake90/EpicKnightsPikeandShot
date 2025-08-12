@@ -17,7 +17,7 @@ import net.warsnake.gcl4weapons.GCL4weapons;
 public class ReachExtender {
 
     @SubscribeEvent
-    public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+    public static void onPlayerAttack(TickEvent.PlayerTickEvent event) {
 
         Player player = event.player;
         if (player.level().isClientSide) return;
@@ -38,7 +38,7 @@ public class ReachExtender {
 
                 if (hitResult != null) {
                     Entity target = hitResult.getEntity();
-                    target.hurt(player.damageSources().playerAttack(player), 7.0F);
+                    target.hurt(player.damageSources().playerAttack(player), 7.0f);
                 }
             }
         }

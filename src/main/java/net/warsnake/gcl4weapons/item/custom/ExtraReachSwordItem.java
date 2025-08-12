@@ -16,10 +16,14 @@ public class ExtraReachSwordItem extends SwordItem {
         super(tier, attackDamage, attackSpeed, properties);
     }
 
+    // try to make it so the attack indicator shows up from far away
+
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(Component.translatable("tooltip.gcl4weaponsnstuff.pike_tooltip"));
 
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
+    
+
 }
