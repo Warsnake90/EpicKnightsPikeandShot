@@ -1,15 +1,21 @@
-This is an indev mod for the GCL4 server. Message #Warsnake901 or @indeinerwand88 for info.
+Epic Knights: Pike and shot. (Early development)
 
-THIS IS NOT FINISHED AND WILL NOT BE FINISHED FOR A BIT OF TIME, DO NOT USE THIS AS OF NOW, IT WILL NOT WORK AS INTENDED!
-
-will add late 1600s to early 1700s weapons and armours to epic knights, Forge 1.20.1.
+1600s to early 1700s addon for the Epic Knights mod. for Forge 1.20.1 
+Including weapons, decorative armours, and decorations.
 
 ------------------------------------------------------------------
 
-Recipes and damage values will be tailored to the gcl4 balance, I may release a seperate non glc4 version after. 
+This is specifically being made for GCL4 Server, as a result recipes and values will be tailored to the gcl4 server balance.
+A separate non-glc4 version will be made after the main version is finished. Message #Warsnake901 or @indeinerwand88 on discord for info.
 
-Please don't give me requests or "can you port to x version" the answer is no.
+-----------------------------------------------------------------
 
-As of now if you wish to get a version of the .jar, you have to build it yourself.
+*Mod status*
 
-You can do anything you want with the source code aslong as you credit this github and do not require payment from the end user.
+Early development, Adds some items but many don't have textures or finished functions as of now.
+
+-----------------------------------------------------------------
+
+Until the mod is in a more playable state, if you wish to get a version of the .jar, you will have to build it yourself.
+
+You can do anything you want with any assets and code, as you credit this github and do not require payment from the end user.
