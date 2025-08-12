@@ -12,4 +12,4 @@ Please don't give me requests or "can you port to x version" the answer is no.
 
 As of now if you wish to get a version of the .jar, you have to build it yourself.
 
-You can do anything you want with the source code aslong as you credit this github and are not requiring payment from the end user.
+You can do anything you want with the source code aslong as you credit this github and do not require payment from the end user.
