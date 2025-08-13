@@ -18,8 +18,7 @@ A separate non-glc4 version will be made after the main version is finished. Mes
 
 Early development.
 
--Some items are added
--Most do not have finished textures or recipes
+-Some items are added, however Most do not have finished textures or recipes.
 
 ----------------------------------------------------------------------------
 
