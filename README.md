@@ -27,7 +27,7 @@ Early development.
 
 Only accepting requests if they are good and align with my vision
 
-In the far future, It may be ported to 1.12.2 or fabric 1.20.1, However that is not planed as of now.
+In the far future, It may be ported to 1.12.2 or fabric 1.20.1, However that is not planned as of now.
 
 ----------------------------------------------------------------------------
 
