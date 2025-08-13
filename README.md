@@ -1,4 +1,3 @@
----------------------------------------------------------
 
  **Epic Knights: Pike and shot. (Early development)**
 
