@@ -1,15 +1,36 @@
-This is an indev mod for the GCL4 server. Message #Warsnake901 or @indeinerwand88 for info.
 
-THIS IS NOT FINISHED AND WILL NOT BE FINISHED FOR A BIT OF TIME, DO NOT USE THIS AS OF NOW, IT WILL NOT WORK AS INTENDED!
+ **Epic Knights: Pike and shot. (Early development)**
 
-will add late 1600s to early 1700s weapons and armours to epic knights, Forge 1.20.1.
+1600s to early 1700s addon for the Epic Knights mod. for Forge 1.20.1 
+Including weapons, decorative armours, and decorations.
 
-------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
-Recipes and damage values will be tailored to the gcl4 balance, I may release a seperate non glc4 version after. 
+ **Purpose**   
 
-Please don't give me requests or "can you port to x version" the answer is no.
+This is specifically being made for GCL4 Server, as a result recipes and values will be tailored to the gcl4 server balance.
+A separate non-glc4 version will be made after the main version is finished. Message @Warsnake901 or @indeinerwand88 on discord for info.
 
-As of now if you wish to get a version of the .jar, you have to build it yourself.
+----------------------------------------------------------------------------
 
-You can do anything you want with the source code aslong as you credit this github and are not requiring payment from the end user.
+ **Mod Status**
+
+Early development.
+
+-Some items are added, however Most do not have finished textures or recipes.
+
+----------------------------------------------------------------------------
+
+**Requests and ports** 
+
+Only accepting requests if they are good and align with my vision
+
+In the far future, It may be ported to 1.12.2 or fabric 1.20.1, However that is not planned as of now.
+
+----------------------------------------------------------------------------
+
+**Foot notes**
+
+Until the mod is in a more playable state, if you wish to get a version of the .jar, you will have to build it yourself.
+
+You can do anything you want with any assets and code, as you credit this github and do not require payment from the end user.
