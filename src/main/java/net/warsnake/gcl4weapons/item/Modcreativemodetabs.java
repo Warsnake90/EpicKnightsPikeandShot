@@ -23,6 +23,7 @@ public class Modcreativemodetabs {
                 // debug items
                 output.accept(ModItems.debug.get());
                 output.accept(ModBlocks.debug_block.get());
+                output.accept(ModItems.debug_decoration.get());
 
                 // swords
                 output.accept(ModItems.steel_smallsword.get());

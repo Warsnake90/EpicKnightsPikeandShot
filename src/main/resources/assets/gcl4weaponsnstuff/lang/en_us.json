@@ -1,6 +1,7 @@
 {
   "item.gcl4weaponsnstuff.debug": "Debug item (DO NOT USE)",
   "block.gcl4weaponsnstuff.debug_block": "Debug Block (DO NOT USE)",
+  "item.gcl4weaponsnstuff.debug_decoration": "Debug Decoration (DO NOT USE)",
 
   "item.gcl4weaponsnstuff.steel_smallsword": "Steel Smallsword",
   "item.gcl4weaponsnstuff.steel_basket_hilted_sword": "Scottish Broadsword",
@@ -10,6 +11,8 @@
   "item.gcl4weaponsnstuff.steel_walloon_sword": "Steel Walloon Sword",
   "item.gcl4weaponsnstuff.steel_long_pike": "Steel Long Pike",
   "item.gcl4weaponsnstuff.steel_spontoon": "Steel Spontoon",
+
+
   "tooltip.gcl4weaponsnstuff.pike_tooltip": "+*reach* Entity Reach",
 
   "creativetab.gcl4_tab": "Pikes and Shot"

@@ -4,6 +4,7 @@ plugins {
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+
 }
 
 version = mod_version
@@ -23,7 +24,6 @@ minecraft {
     copyIdeResources = true
 
     runs {
-        // applies to all the run configs below
         configureEach {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
@@ -37,24 +37,23 @@ minecraft {
         }
 
         client {
-            // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
-        }
 
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
-        }
 
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
         gameTestServer {
             property 'forge.enabledGameTestNamespaces', mod_id
         }
-
         data {
-            // example of overriding the workingDirectory set in configureEach above
             workingDirectory project.file('run-data')
-
-            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
         }
     }
@@ -73,13 +72,11 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
-     // runtimeOnly "dev.architectury:architectury-forge:${rootProject.architectury_version}"
+    implementation fg.deobf("dev.architectury:architectury-forge:${architectury_api_version}")
      runtimeOnly "me.shedaniel.cloth:cloth-config-forge:${rootProject.cloth_config_version}"
      implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:6028374")
 
 }
-
 tasks.named('processResources', ProcessResources).configure {
     var replaceProperties = [
             minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
