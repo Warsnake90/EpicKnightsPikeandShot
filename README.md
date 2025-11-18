@@ -1,3 +1,5 @@
+**ARCHIVED PROJECT, PROBABLY WILL NOT CONTINUE THIS, FEEL FREE TO USE IT HOWEVER YOU SEE FIT HOWEVER**
+
 
  **Epic Knights: Pike and shot. (Early development)**
 
